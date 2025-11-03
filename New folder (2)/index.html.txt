@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إلى ايناس ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffd6e7, #ffeaf2);
+      overflow-x: hidden;
+      font-family: "Cairo", sans-serif;
+      text-align: center;
+      color: #444;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    /* تحريك القلوب */
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: pink;
+      transform: rotate(45deg);
+      animation: float 8s infinite ease-in;
+      opacity: 0.7;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: pink;
+      border-radius: 50%;
+    }
+
+    .heart::before {
+      top: -10px;
+      left: 0;
+    }
+
+    .heart::after {
+      left: -10px;
+      top: 0;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(45deg);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-10vh) rotate(45deg);
+        opacity: 0;
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 5;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #e91e63;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    p {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      padding: 20px;
+      line-height: 1.9;
+      font-size: 1.1em;
+    }
+
+    img {
+      margin-top: 25px;
+      width: 90%;
+      max-width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    audio {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.5em; }
+      p { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <!-- موسيقى خلفية -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/02/14/audio_5a7c4be3a9.mp3?filename=romantic-background-141829.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- قلوب متحركة -->
+  <script>
+    for (let i = 0; i < 20; i++) {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDelay = Math.random() * 5 + 's';
+      heart.style.background = `hsl(${Math.random() * 20 + 340}, 70%, 75%)`;
+      document.body.appendChild(heart);
+    }
+  </script>
+
+  <div class="container">
+    <h1>إلى ايناس ❤️</h1>
+    <p>
+      يا ايناس يا كتكوتي ويا قلبوشتي بعرف اني زعلتك وبعرف اني كنت قاسي شوي بكلامي بس والله ما كان قصدي ازعلك ولا اتعبك انا كل اللي كنت حاسه وقتها خوفي عليك انك ما كنتي تفتحيني ولا تطمنيني عنك وانا قلبي كان مشغول ومضيع من القلق والله كنت كل لحظه افكر فيك واحكي يا رب تكون بخير يا رب تكون مرتاحه ما كنت عارف شو وضعك ولا شو صاير معك وقلبي كان يولع من كثر الشوق والخوف بس يا عمري يمكن طريقتي كانت غلط وبدل ما اطمنك زعلتك انا بعتذر الك من قلبي يا حبيبتي ما بدي يمر يوم قبل عمليتك واحنا زعلانين عن بعض انا بحبك وبخاف عليك اكتر من نفسي والله اني لو اقدر اخذ تعبك ووجعك عنك ما بتردد لحظه يا كتكوتي انتي حياتي انتي كل شي حلو صار بحياتي انتي السبب اللي بخلي ايامي الها معنى ما بدي يجي بكرا وانتي بقلبك وجع مني بديك تدخلي عمليتك وانتي مرتاحه وابتسامتك ما تفارق وجهك بدي قلبك يكون مرتاح لاني رح اظل ادعيلك من قلبي طول الوقت يا روحي الله يحميك ويقومك بالسلامه وان شاء الله كل التعب بيروح وانتي اقوى واجمل من قبل يا قلبي والله ما في شي بالدنيا يسوى زعلك ولا لحظه حزن تمر عليك انا بحبك حب ما الو وصف حب حقيقي بخاف عليك من الهوا وبغار عليك من التعب ومن الوقت ومن كل شي بحبك اكتر من اي شي بحياتي يا ايناس يا قلبوشتي سامحيني اذا غلطت بحقك سامحيني لو كلماتي وجعتك سامحيني لانك اغلى من الدنيا كلها والله لو تقدري تشوفي قلبي هسه بتعرفي انه مليان ندم واشتياق وحنين الك بحبك يا حبيبتي والله ما بدي شي بهالدنيا غير سلامتك وضحكتك وبكره بعد العمليه بدي اول كلمه تطلع من تمك تكون انا منيحه يا يزن عشان قلبي يطمن الله يحميك ويكون معك بكل لحظه يا عمري بحبك بحبك بحبك وما رح ازعل منك بعد اليوم ان شاء الله تبقي بخير وسلامه على طول ❤️
+    </p>
+    <img src="myphoto.jpg" alt="صورتنا الجميلة">
+  </div>
+</body>
+</html>
